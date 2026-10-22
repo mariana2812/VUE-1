@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --vermelho: #e3350d;
+    --azul: #2a75bb;
+    --azul-escuro: #174a7c;
+    --amarelo: #ffcb05;
+    --fundo: #eef6ff;
+    --branco: #ffffff;
+    --texto: #222;
+    --borda-caracteristica: #d6e6f5;
+
+    /* Cores dos tipos de Pokemon */
+    --tipo-normal: #a8a878;
+    --tipo-fire: #f08030;
+    --tipo-water: #6890f0;
+    --tipo-electric: #f8d030;
+    --tipo-grass: #78c850;
+    --tipo-ice: #98d8d8;
+    --tipo-fighting: #c03028;
+    --tipo-poison: #a040a0;
+    --tipo-ground: #e0c068;
+    --tipo-flying: #a890f0;
+    --tipo-psychic: #f85888;
+    --tipo-bug: #a8b820;
+    --tipo-rock: #b8a038;
+    --tipo-ghost: #705898;
+    --tipo-dragon: #7038f8;
+    --tipo-dark: #705848;
+    --tipo-steel: #b8b8d0;
+    --tipo-fairy: #ee99ac;
+}
+body{
+    font-family: Arial, sans-serif;
+    background: var(--fundo);
+    color: var(--texto);
+}
+button{
+    cursor: pointer;
+    font-family: inherit;
+}
+ul, li{
+    list-style: none;
+}
+a:focus-visible, button:focus-visible{
+    outline: 3px solid var(--azul-escuro);
+    outline-offset: 4px;
+}
+.mensagem{
+    margin: 60px 20px 25px;
+    text-align: center;
+}
+.mensagem p{
+    margin-bottom: 16px;
+}
