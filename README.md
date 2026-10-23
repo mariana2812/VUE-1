@@ -40,6 +40,4 @@ A tela de detalhes busca o Pokémon pelo ID da URL, inclusive ao abrir o endere�
 
 Requer internet para consultar a PokéAPI e carregar imagens. Em hospedagem estática, configure o redirecionamento das rotas para `index.html`, pois o projeto usa `createWebHistory`.
 
-## Entrega no GitHub
 
-Envie os arquivos do projeto, incluindo `package-lock.json`. Não envie `node_modules` ou `dist`.
